@@ -1,0 +1,159 @@
+.navbar{
+    margin-top: 100px;
+    background-color: #000;
+    height: 50px;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+.nav_container h3{
+    padding-top: 15px;
+}
+.nav_container ul{
+    display: flex;
+    padding-top: 15px;
+}
+.nav_container .menu_bar{
+    color: white;
+    padding-top: 15px;
+    display: none;
+}
+
+.nav_container ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+.nav_container .button{
+    padding-top: 10px;
+
+}
+.nav_container .button button{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #33a4e1;
+    border: none;
+    outline: none;
+}
+/* ---- */
+/* responsive */
+/* ---- */
+@media screen and (max-width :500px){
+    .nav_container ul{
+        display: none;
+    }
+    .nav_container .menu_bar{
+        display: block;
+    }
+}
+
+/* ---- */
+/* Navigation bar 2 */
+.navbar2{
+    margin-top: 100px;
+    background-color: #000;
+    height: 50px;
+}
+.nav_container2{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+.nav_container2 h3{
+    padding-top: 15px;
+}
+.nav_container2 ul{
+    display: flex;
+    padding-top: 15px;
+    margin-right: 23%;
+}
+.nav_container2 .menu_bar2{
+    color: white;
+    padding-top: 15px;
+    display: none;
+}
+
+.nav_container2 ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav_container2 .button2 button{
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #33a4e1;
+    border: none;
+    outline: none;
+}
+/* ---- */
+/* responsive2 */
+/* ---- */
+@media screen and (max-width :600px){
+    .nav_container2 ul{
+        display: none;
+    }
+    .nav_container2 .menu_bar2{
+        display: block;
+    }
+}
+/* ----- */
+/* Responive3 */
+/* ----- */
+.navbar3{
+    margin-top: 100px;
+    background-color: #000;
+    height: 50px;
+}
+.nav_container3{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    
+}
+.nav_container3 h3{
+    padding-top: 15px;
+    margin-right: 23%;
+}
+.nav_container3 ul{
+    display: flex;
+    padding-top: 15px;
+    
+}
+.nav_container3 .menu_bar3{
+    color: white;
+    padding-top: 15px;
+    display: none;
+}
+
+.nav_container3 ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav_container3 .button3 button{
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #33a4e1;
+    border: none;
+    outline: none;
+}
+/* ---- */
+/* responsive2 */
+/* ---- */
+@media screen and (max-width :600px){
+    .nav_container3 ul{
+        display: none;
+    }
+    .nav_container3 .menu_bar3{
+        display: block;
+    }
+}
